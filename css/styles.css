@@ -6,6 +6,8 @@ body {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
 a{
     text-decoration: none;
@@ -23,6 +25,64 @@ a{
     color: #4D5AE5;
 }
 /* Header */
-.navi {
+.link-menu{
     font-weight: 500;
 }
+.link-menu:hover {
+    color: #404BBF;
+}
+.link-menu:active{
+    color: #404BBF;
+    text-decoration: underline;
+}
+.link-contacs:hover {
+    color: #404BBF;
+}
+/* Hero */
+.section-hero {
+    background-color: #2E2F42;
+}
+.hero-title {
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 1;
+   color: #FFFFFF;
+   text-align: center;
+}
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    text-align: center;
+}
+.hero-button:hover {
+    background-color: #404BBF;
+}
+/* Advantages */
+.title-advantages{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+/* Our Team */
+.section-our-team {
+    background-color: #F4F4FD;
+}
+.title-our-team {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.111;
+    text-align: center;
+
+}
+.title-name {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+}
+/* Our Portfolio */
