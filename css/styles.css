@@ -6,7 +6,6 @@ body {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     text-align: left;
 }
 a{
@@ -55,7 +54,7 @@ ul {
 .hero-title {
    font-size: 56px;
    font-weight: 700;
-   line-height: 1;
+   line-height: 1.011;
    color: #FFFFFF;
    text-align: center;
 }
@@ -67,9 +66,7 @@ ul {
     background-color: #4D5AE5;
     color: #FFFFFF;
     text-align: center;
-}
-.hero-button:hover {
-    background-color: #404BBF;
+
 }
 /* Advantages */
 .title-advantages{
@@ -80,13 +77,12 @@ ul {
 }
 /* Our Team */
 .section-our-team {
-    background-color: #F4F4FD;
 }
 .title-our-team {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.111;
+    line-height: 1.11;
     text-align: center;
 
 }
