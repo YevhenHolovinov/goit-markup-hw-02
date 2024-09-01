@@ -13,16 +13,26 @@ a{
     text-decoration: none;
     color: #2E2F42;
 }
+ul {
+    list-style-type: none;
+}
 /* logotype */
-.logo-title{
+.logo-dark-title{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
     color: #2E2F42;
 }
-.logo-accent{
+.logo-dark-accent{
     color: #4D5AE5;
+}
+.logo-waith-title {
+    color: #F4F4FD;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
 }
 /* Header */
 .link-menu{
@@ -81,8 +91,28 @@ a{
 
 }
 .title-name {
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 /* Our Portfolio */
+.title-portfolio{
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.111;
+    text-align: center;
+}
+.title-services{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+/* Footer */
+.footer {
+    background-color: #2E2F42;
+}
+.footer-paragraph {
+    color: #F4F4FD;
+}
