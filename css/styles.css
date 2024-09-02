@@ -47,8 +47,10 @@ ul {
     text-decoration: underline;
 }
 .address-link-title {
-    color: #434455;
     font-style: normal;
+}
+.link-contacs {
+    color: #434455;
 }
 .link-contacs:hover {
     color: #404BBF;
