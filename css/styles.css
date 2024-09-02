@@ -17,22 +17,22 @@ ul {
     list-style-type: none;
 }
 /* logotype */
-.logo-dark-title{
+.logo-title{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
-    color: #2E2F42;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.logo-dark-accent{
+.logo-accent{
     color: #4D5AE5;
 }
-.logo-waith-title {
+.logo-dark {
+    color: #2E2F42;
+}
+.logo-waith {
     color: #F4F4FD;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16;
 }
 /* Header */
 .link-menu{
@@ -41,11 +41,21 @@ ul {
 .link-menu:hover {
     color: #404BBF;
 }
+.link-menu:focus {
+    color: #404BBF;
+}
 .link-menu:active{
     color: #404BBF;
     text-decoration: underline;
 }
+.address-link-title {
+    color: #434455;
+    font-style: normal;
+}
 .link-contacs:hover {
+    color: #404BBF;
+}
+.link-contacs:focus {
     color: #404BBF;
 }
 /* Hero */
@@ -55,7 +65,8 @@ ul {
 .hero-title {
    font-size: 56px;
    font-weight: 700;
-   line-height: 1.011;
+   line-height: 1.07;
+   letter-spacing: 0.02em;
    color: #FFFFFF;
    text-align: center;
 }
@@ -64,10 +75,17 @@ ul {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #FFFFFF;
     text-align: center;
-
+    cursor: pointer;
+}
+.hero-button:hover {
+    background-color: #404BBF;
+}
+.hero-button:focus {
+    background-color: #404BBF;
 }
 /* Advantages */
 .title-advantages{
@@ -78,32 +96,45 @@ ul {
     letter-spacing: 0.02em;
 }
 /* Our Team */
+.section-our-team {
+    background-color: #F4F4FD;
+}
+.list-our-team {
+    background-color: #FFFFFF;
+}
 .title-our-team {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
 
 }
 .title-name {
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 /* Our Portfolio */
 .title-portfolio{
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.111;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 .title-services{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 /* Footer */
 .footer {
